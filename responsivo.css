@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 45px;
+    }
+
+    .conteudo-principal{
+flex-direction: column;
+align-items: center;
+margin: 50px 0;
+gap: 20px;
+text-align: center;
+}
+
+.informacoes{
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+.informacoes img{
+    display: inline-flex;
+    justify-content: space-between;
+align-items: center;
+}
+.sobre h2{
+    text-align: center;
+    margin-left: 15px;
+}
+.projetos .titulo{
+  padding: 0 30px;
+}
+.projetos img{
+    margin-left: 4px;
+}
+}
+@media (max-width: 425px){
+.conteudo-principal{
+    font-size: 30px;
+}
+.informacoes{
+    font-size: 16px;
+}
+.informacoes img{
+    max-width: 320px;
+}
+.projetos{
+    padding: 30px;
+}
+}

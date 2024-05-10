@@ -1,0 +1,158 @@
+body {
+    background-color: #1d1d1d;
+    font-family: "Nunito", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.cabecalho li {
+    color: #ee82ee;
+    font-size: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.img-logo {
+    height: 190px;
+    border-radius: 100%;
+    padding: 70px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #fff;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.informacoes-imagem {
+    position: absolute;
+    height: 350px;
+    border-radius: 100%;
+    padding: 70px;
+    right: 200px;
+    top: 130px;
+
+}
+
+.informacoes span {
+    color: #ee82ee;
+}
+
+.informacoes h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.informacoes p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 18px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15%;
+    margin-top: 200px;
+    line-height: 24px;
+}
+
+.sobre h2 {
+    font-size: 35px;
+    color: #ee82ee;
+    margin-left: 280px;
+}
+
+.sobre p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.projetos .titulo {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ee82ee;
+    margin-top: 85px;
+}
+
+.projeto-ativo img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+.projeto-ativo :hover {
+    opacity: 0.7;
+    transition: 1.0s;
+    cursor: pointer;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    gap: 200px;
+}
+
+.fale-comigo {
+    color: #ee82ee;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2px 16px;
+    width: 120px;
+    height: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.fale-comigo {
+    background-color: #ee82ee;
+    color: #000000;
+}
+
+.fale-comigo {
+    cursor: pointer;
+}
+
+.contato a i {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 12px;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.contato a i:hover {
+    color: #ee82ee;
+    border: 1px solid #ee82ee;
+    transform: scale(1.1);
+}
